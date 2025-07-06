@@ -82,7 +82,7 @@ int main()
     int pin, choice;
     do
     {
-        system("clear"); // use "cls" if you're on Windows
+        system("clear");
         cout << "Enter Account Number: ";
         cin >> acc;
         cout << "Enter PIN: ";
@@ -92,7 +92,7 @@ int main()
         {
             do
             {
-                system("clear"); // use "cls" if you're on Windows
+                system("clear");
                 cout << "1. Check Balance\n2. Deposit\n3. Withdraw\n4. Account Info\n5. Update Mobile\n6. Exit\n";
                 cin >> choice;
 
